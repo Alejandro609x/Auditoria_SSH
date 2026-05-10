@@ -228,16 +228,6 @@ Python 3.10 o superior recomendado.
 
 ---
 
-## Dependencias
-
-Instalar:
-
-```bash
-pip install paramiko rich
-```
-
----
-
 # Instalación
 
 ## Clonar repositorio
