@@ -244,14 +244,19 @@ pip install paramiko rich
 
 ```bash
 git clone https://github.com/Alejandro609x/Auditoria_SSH.git
+```
 ---
 
-## Instalar dependencias
+## Entrar al proyecto
 
 ```bash
-cd 
+cd Auditoria_SSH
 ```
 
+## Entrar al Script
+```bash
+cd Analizador_SSH
+```
 ---
 
 # Ejecución
@@ -267,7 +272,6 @@ Ejecutar:
 ```bash
 python3 ssh_audit.py
 ```
-
 ---
 
 # Uso
