@@ -303,6 +303,7 @@ El archivo generado será:
 ```text
 reporte_servidor01.txt
 ```
+![Target](/Analizador_SSH/Imagenes/nombre.png)
 
 ---
 
@@ -311,6 +312,8 @@ reporte_servidor01.txt
 Después del análisis puede mantenerse la conexión SSH interactiva.
 
 La herramienta mostrará recomendaciones para realizar tratamiento TTY.
+
+![Target](/Analizador_SSH/Imagenes/sesionssh.png)
 
 ---
 
@@ -349,19 +352,6 @@ export BASH=bash
 
 ---
 
-# Estructura del proyecto
-
-```text
-ssh-linux-security-auditor/
-│
-├── ssh_audit.py
-├── requirements.txt
-├── README.md
-└── reports/
-```
-
----
-
 # Ejemplo de uso
 
 ```bash
@@ -370,14 +360,7 @@ python3 ssh_audit.py
 
 Salida:
 
-```text
-[+] Conectado a 192.168.1.20
-[+] Analizando usuarios
-[+] Analizando sudo
-[+] Analizando SUID
-[+] Analizando cronjobs
-...
-```
+![Target](/Analizador_SSH/Imagenes/primero.png)
 
 ---
 
@@ -397,6 +380,15 @@ Salida:
 - Binarios modificables
 - Tokens expuestos
 - Secrets expuestos
+
+![Target](/Analizador_SSH/Imagenes/segundo.png)
+
+![Target](/Analizador_SSH/Imagenes/tercero.png)
+
+![Target](/Analizador_SSH/Imagenes/cuatro.png)
+
+![Target](/Analizador_SSH/Imagenes/cinco.png)
+
 
 ---
 
@@ -478,26 +470,6 @@ No utilizar root salvo necesidad específica.
 
 ---
 
-# Mejoras futuras
-
-Posibles mejoras:
-
-- Exportación HTML
-- Exportación PDF
-- Integración con LinPEAS
-- Integración con Nmap
-- Detección automática de CVEs
-- Enumeración Active Directory
-- BloodHound
-- Escaneo interno
-- Detección Kubernetes
-- Enumeración Docker avanzada
-- Detección automática GTFOBins
-- Interfaz gráfica
-- Reportes enriquecidos
-
----
-
 # Seguridad
 
 Usar únicamente en:
@@ -508,18 +480,6 @@ Usar únicamente en:
 - auditorías permitidas
 
 El uso no autorizado puede ser ilegal.
-
----
-
-# Licencia
-
-MIT License
-
----
-
-# Autor
-
-Proyecto desarrollado para auditoría y análisis de seguridad Linux por SSH.
 
 ---
 
